@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ 	width:960px;
+ 	margin: 0 auto;
+}
+
+.boyubutton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FFA500;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.boyubutton:hover {
+  background-color: #FFA500;
+  color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #FFA500 ;
+list-style-type: none;
+  overflow: hidden;
+	display: flex;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  transition: 0.5s;
+  float: Left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 14px 16px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.site-footer
+{
+  background-color:#FFA500;
+  padding:45px 0 20px;
+  font-size:14px;
+  line-height:20px;
+  color:#000000;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:7px;
+  letter-spacing:2px
+}
+
+
+@media (max-width:1366px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:1366px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer 
+  {
+    text-align:center
+  }
+}
+
+.cheeboyu {
+	text-align:center;	
+}
+
+.tabledispatch {
+	width: 30%;
+	height: 1000;
+	margin: 0 auto;
+}
+
+.required
+{
+	color:#000000;
+}
+
+fieldset
+{
+   border: 2px solid black;	
+}
+
+table, th, td {
+  border: 1px solid black;
+}
