@@ -8,7 +8,7 @@
 </head>
 <script>
 //validation
-function validation()
+function validation() 
 {
 	var number = document.forms["formLoginCall"]["boyunumber"].value;
 	var location = document.forms["formLoginCall"]["boyulocation"].value;
@@ -18,6 +18,12 @@ function validation()
 	if (number == "")
 	{
 		alert("Please enter your number!");
+		return false;
+	}
+	
+	if((number.charAt(0) !=6) && (number.charAt(0) !=8) && (number.charAt(0) !=9) )
+	{
+		alert("Mobile Number must start with 6, 8 and 9!");
 		return false;
 	}
 	
@@ -33,12 +39,14 @@ function validation()
 		return false;
 	}
 	
-	if(description == "") {
-			alert("Description Must Be Filled Out!");
-			return false;
-		}
+	if(description == "") 
+	{
+		alert("Description Must Be Filled Out!");
+		return false;
+	}
 		return true;
 	}
+	
 	</script>
 		
 <body style="background-color:#00a8ff">
