@@ -23,7 +23,7 @@ function validation()
 	
 	if((number.charAt(0) !=6) && (number.charAt(0) !=8) && (number.charAt(0) !=9) )
 	{
-		alert("Mobile Number must start with 6, 8 and 9!");
+		alert("Contact Number must start with 6, 8 or 9!");
 		return false;
 	}
 	
